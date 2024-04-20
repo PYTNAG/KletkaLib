@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "DIhpBhSaMceTXvPNg63NCJV82Qustys5xB8TzKu9Ilt9xOqinZzBq82pj4mCuV8RyicV0LFZmJu+qNpisEhJ3g==",
+  "success": true,
+  "projectFilePath": "/home/pytnag/Desktop/KletkaLib/Cells/Cells.csproj",
+  "expectedPackageFiles": [
+    "/home/pytnag/.nuget/packages/microsoft.netcore.app.ref/6.0.27/microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "/home/pytnag/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.27/microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}
