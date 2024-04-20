@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "NxM2IA45vOvepUo+kSUr+d7k37Bsyokz8ygOKbMnfadXQUJntF/JMhIqYZe9WHoW6sZMncXVY7INIl0NOuylPw==",
+  "success": true,
+  "projectFilePath": "/home/pytnag/Desktop/KletkaLib/Chains/Chains.csproj",
+  "expectedPackageFiles": [
+    "/home/pytnag/.nuget/packages/microsoft.netcore.app.ref/6.0.27/microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "/home/pytnag/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.27/microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}
