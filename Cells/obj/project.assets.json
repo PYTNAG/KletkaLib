@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Chains/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Chains.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chains.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Chains/1.0.0": {
+      "type": "project",
+      "path": "../Chains/Chains.csproj",
+      "msbuildProject": "../Chains/Chains.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Chains >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/pytnag/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/pytnag/Desktop/KletkaLib/Chains/Chains.csproj": {
+              "projectPath": "/home/pytnag/Desktop/KletkaLib/Chains/Chains.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

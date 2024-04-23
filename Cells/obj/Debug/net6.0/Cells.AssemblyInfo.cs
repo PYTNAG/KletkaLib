@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cells")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19305e70ab1d02ca74a4b98ddd770e54ceff4f5d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5042ffac68566f824b70d9bac99246042a016b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cells")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cells")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
