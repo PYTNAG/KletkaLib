@@ -11,7 +11,7 @@ public abstract class Cell
     protected readonly Alpha _genotype;
     public byte[] Genotype => _genotype.Body;
 
-    protected readonly HashSet<Chain> _freeChains; // includes betas and gammas
+    protected readonly List<Chain> _freeChains; // includes betas and gammas
 
     public Cell(Alpha? genotype = null)
     {
@@ -19,7 +19,7 @@ public abstract class Cell
         _freeChains = new();
     }
 
-    public abstract void Tick(HashSet<Chain> neighbourhoodChains, Energy energy);
+    public abstract void Tick(IEnumerable<Chain> neighbourhoodChains, Energy energy);
 
     protected void ReleaseChains(IEnumerable<Chain> chains) => ChainsReleased?.Invoke(chains);
     
