@@ -96,7 +96,7 @@ public class Chain
     {
         for (int i = 0; i < _body.Length; ++i)
         {
-            if (IsSequenceConjugateAt(new byte[] { energy.Type }, i))
+            if (IsSequenceConjugateAt(new byte[] { energy.Type }, i) && energy.Value > byte.MaxValue - energy.Type)
             {
                 energy.Subtract(byte.MaxValue - energy.Type + 1);
 
