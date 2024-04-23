@@ -92,14 +92,12 @@ public class Chain
         return false;
     }
 
-    public bool TrySplit(Energy energy, out Chain? splittedPart)
+    public bool TrySplit(byte energyType, out Chain? splittedPart)
     {
         for (int i = 0; i < _body.Length; ++i)
         {
-            if (IsSequenceConjugateAt(new byte[] { energy.Type }, i) && energy.Value > byte.MaxValue - energy.Type)
+            if (IsSequenceConjugateAt(new byte[] { energyType }, i))
             {
-                energy.Subtract(byte.MaxValue - energy.Type + 1);
-
                 splittedPart = new(_head, _body[..i]);
                 foreach (var radical in _radicals.Where(r => r.Key < i))
                 {
