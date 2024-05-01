@@ -12,6 +12,7 @@ public abstract class Cell
     public byte[] Genotype => _genotype.Body;
 
     protected readonly List<Chain> _freeChains; // includes betas and gammas
+    public IEnumerable<Chain> FreeChains => _freeChains;
 
     public Cell(Alpha? genotype = null)
     {
