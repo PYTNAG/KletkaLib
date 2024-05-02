@@ -7,6 +7,8 @@ public class Seive : Cell
     protected readonly int _seivePeriod;
 
     protected Dictionary<byte, Energy> _energy = new();
+    public IEnumerable<Energy> Energy => _energy.Values;
+
     protected const int _splitGate = 20;
 
     public Seive(int seivePeriod, Alpha? genotype = null) : base(genotype)
