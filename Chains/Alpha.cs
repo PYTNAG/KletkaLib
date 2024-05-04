@@ -85,4 +85,5 @@ public class Alpha : Chain
     public Alpha UnreliableCopy() => new(this);
 
     public byte[] RandomGene() => _genes[Random.Shared.Next(_genes.Count)];
+    public bool HasGenes() => _genes.Count > 0;
 }
